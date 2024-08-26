@@ -64,13 +64,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 ),
                 _createSwitch(
                   'Vegana', 
-                  'So exibe refeição sem Veganas', 
+                  'So exibe refeição Veganas', 
                    settings.isVegan, 
                   (value) => setState(() => settings.isVegan = value),
                 ),
                 _createSwitch(
                   'Vegetariana', 
-                  'So exibe refeição sem Vegetarianas', 
+                  'So exibe refeição Vegetarianas', 
                    settings.isVegetarian, 
                   (value) => setState(() => settings.isVegetarian = value),
                 ),
